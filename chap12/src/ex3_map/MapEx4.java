@@ -17,11 +17,7 @@ public class MapEx4 {
 		map.put("선생", "teacher");
 //		map.put(null, "null"); //Hashtable 객체에서는 null을 key로 사용할 수 없음
 		System.out.println(map);
-		HashMap<String,String> map2 = new HashMap<>();
-		map2.put("학생", "student");
-		map2.put("선생", "teacher");
-		map2.put(null, "null"); //HashMap 객체에서는 null을 key로 사용할 수 있음
-		System.out.println(map2);
+
 	}
 }
 
